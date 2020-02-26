@@ -1,0 +1,4 @@
+- maven 镜像需要在jdk镜像基础上构建，需要jdk镜像提供JAVA_HOME JRE_HOME等环节变量
+- maven DockerFile中可以指定version
+- 本文件夹下需要由maven的settings.xml文件
+- 如无外网环境，需要替换${MAVEN_HOME}/conf/settings.xml，其余情况仅替换${MAVEN_HOME}/ref/settings.xml即可
